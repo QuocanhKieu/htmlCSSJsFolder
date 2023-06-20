@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <form action="" method="post">
+        <h1>Nhập điểm môn học</h1>
+
+        <label for="toan">Toán:</label>
+        <input type="number" id="toan" step="0.2" min="0" max="10" required />
+        <label for="van">Văn:</label>
+        <input type="number" id="Van" step="0.2" min="0" max="10" required />
+        <label for="anh">Anh:</label>
+        <input type="number" id="anh" step="0.2" min="0" max="10" required />
+        <button class="evaluate" type="button">Tính Tổng</button>
+        <div id="result"></div>
+      </form>
+    </main>
+    <script src="./javascript/styles.js"></script>
+  </body>
+</html>
